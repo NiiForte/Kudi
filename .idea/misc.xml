@@ -3,23 +3,6 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$USER_HOME$/IdeaProjects/kudi/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$USER_HOME$/IdeaProjects/kudi/async-client/pom.xml" />
-        <option value="$USER_HOME$/IdeaProjects/kudi/client/pom.xml" />
-        <option value="$USER_HOME$/IdeaProjects/kudi/domain/pom.xml" />
-        <option value="$USER_HOME$/IdeaProjects/kudi/pom.xml" />
-        <option value="$USER_HOME$/IdeaProjects/kudi/registrar-server/pom.xml" />
-        <option value="$USER_HOME$/IdeaProjects/kudi/wallet-server/pom.xml" />
-      </set>
-    </option>
-  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
