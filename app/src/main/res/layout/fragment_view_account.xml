@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
-
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="rancard.com.kudi.ViewAccount">
 
     <TextView
         android:layout_width="match_parent"
@@ -13,24 +11,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Transaction Id"
+        android:text="Account Name"
         android:paddingTop="10dp"
-        android:id="@+id/transactionId"
+        android:id="@+id/accountName"
         android:layout_below="@+id/accountNumber"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/refcode"
-        android:text="Refcode"
+        android:id="@+id/accountTypeId"
+        android:text="Account Type ID"
         android:paddingTop="10dp"
-        android:layout_below="@+id/transactionId"/>
+        android:layout_below="@+id/accountName"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:text="Started At"
-        android:layout_below="@id/refcode"
-        android:id="@+id/startedAt"/>
 </RelativeLayout>
